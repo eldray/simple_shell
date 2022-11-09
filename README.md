@@ -4,4 +4,5 @@
 This is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). This program is written entirely in C as part of our team project for ALX Africa Software Engineering.
 
 # Collaborators
-Emmanuel Appiah Ernest Asubonteng
+- Emmanuel Appiah 
+- Ernest Asubonteng
