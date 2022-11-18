@@ -75,14 +75,4 @@ char *my_getenv(char *key, char **env, int mood);
 unsigned int _dstrlen(char **ptr);
 void _free(char **ptr);
 char **_drealloc(char **src, size_t size, size_t add, char **list, int mood);
-/*------------cd_shell.c----------*/
-int cd_shell(data_shell *datash);
-/*--------------get_line.c------------*/
-void bring_line(char **lineptr, size_t *n, char *buffer, size_t j);
-ssize_t get_line(char **lineptr, size_t *n, FILE *stream);
-/*--------------get_sigint.c------------*/
-void get_sigint(int sig);
-/*----------shell_loop.c-------------*/
-char *without_comment(char *in);
-void shell_loop(data_shell *datash);
 #endif
