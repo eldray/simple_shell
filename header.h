@@ -75,4 +75,5 @@ char *my_getenv(char *key, char **env, int mood);
 unsigned int _dstrlen(char **ptr);
 void _free(char **ptr);
 char **_drealloc(char **src, size_t size, size_t add, char **list, int mood);
+
 #endif

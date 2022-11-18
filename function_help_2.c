@@ -104,7 +104,7 @@ char **_drealloc(char **src, size_t size, size_t add, char **list, int mood)
 	}
 	/* additional elements */
 	if (mood == 1)
-	{	
+	{
 		while (add)
 		{
 			len = strlen(*list) + 1;

@@ -64,7 +64,7 @@ void change_path(s_global *cmd, char pwd[PATH_MAX], char old[PATH_MAX])
 	if (chdir(pwd) == -1)
 		printf("cd: %s: No such file or directory\n", pwd);
 	else
-	{	
+	{
 		cmd->token[1] = "PWD";
 		cmd->token[2] = pwd;
 		shell_setenv(cmd);
